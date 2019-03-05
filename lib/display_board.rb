@@ -6,17 +6,10 @@
 
 board = [" "," "," "," "," "," "," "," "," "]
 
-row[0] = ` "#{board[0]}" | "#{board[1]}" | "#{board[2]}" `
-row[1] =  "-----------"
-row[2] = ` "#{board[3]}" | "#{board[4]}" | "#{board[5]}" `
-row[3] = "-----------"
-row[4] = ` "#{board[6]}" | "#{board[7]}" | "#{board[8]}" `
-
-
 def display_board(board)
-  puts row[0]
-  puts row[1]
-  puts row[2]
-  puts row[3]
-  puts row[4]
+  puts ` "#{board[0]}" | "#{board[1]}" | "#{board[2]}" `
+  puts  "-----------"
+  puts  ` "#{board[3]}" | "#{board[4]}" | "#{board[5]}" `
+  puts  "-----------"
+  puts  ` "#{board[6]}" | "#{board[7]}" | "#{board[8]}" `
 end
